@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.crypto{
+    width: 1440px;
+    height: 4976px;
+    background: #02061A;
+    margin: auto;
+
+
+}
+/*--------------------------------------header--------------------------------------------*/
+header{
+    height: 20vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+
+}
+header nav{
+    width: 30%;
+}
+header nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ header nav ul a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+header>div{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.circle{
+position: absolute;
+    top: -245px;
+    left: -103px;
+}
+
+
+/*-----------------main--------------------------------------*/
+main{
+    width: 1034px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 224px 216px 181px;
+
+}
+
+.games h1{
+    width: 522px;
+    height: 233px;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    margin-bottom: 31px;
+}
+.games button:nth-child(2){
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
+.games button:nth-child(3){
+    width: 254px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: #02061A;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.king{
+    width: 468px;
+    height: 462px;
+    border-radius: 10px;
+    display: flex;
+     margin-bottom: 50px;
+}
+.text{
+    width: 238px;
+    height: 38px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 150px 0 8px 174px;
+}
+.nav{
+    width: 1065px;
+    height: 125px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    margin-left: 189px;
+}
+.nav>nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /*gap: 138px;*/
+    margin-top: 46px;
+}
+.nav>nav>ul>li>a{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.sale{
+    display: flex;
+    margin: 256px 0 0 239px;
+}
+.sale image {
+    width: 428px;
+    height: 480px;
+    background:  lightgray 50% / cover no-repeat;
+    box-shadow: -10px 10px 5px 0 #56CAB1, 10px -10px 5px 0 #4C99BB;
+    margin: 256px 0 0 239px;
+}
+.buy-now{
+    margin: -37px 0 0  30px;
+}
+.buy-now h1{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+.buy-now>h1>span{
+    color: #56CAB1;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+
+}
+.buy-now p:nth-child(2){
+    width: 521px;
+    color: #4C99BB;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+}
+.buy-now p:nth-child(3){
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+}
+svg{
+    position: absolute;
+    bottom: 22px;
+}
+.now{
+    padding-left: 70px;
+}
+.svg{
+    bottom: 0;
+   left:   285px;
+}
+.button{
+    position: relative;
+}
+
+.button-first{
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background:  #02061A;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.button-first::before{
+    content: " ";
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+.span{
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    margin: -54px 0 0 717px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 44px;
+
+}
+.span div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.span div p{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.span div span{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+/*-------------------section-two----------------------------------------------------*/
+.mission{
+    display: flex;
+    margin-top: 174px;
+    position: relative;
+}
+.find-now{
+    margin: 230px 0 0 188px;
+}
+.find-now h1{
+    display: flex;
+    width: 465px;
+    height: 212px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.find-now button{
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 58px;
+}
+.monkey{
+    width: 380px;
+    height: 467px;
+    transform: rotate(-25.337deg);
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    mix-blend-mode: screen;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+
+}
+.monkey img{
+    transform: rotate(25.689deg);
+    border-radius: 5px;
+    margin-top: -107px;
+    /*position: absolute;*/
+}
+.monkey p:nth-child(2){
+    display: flex;
+    width: 226px;
+    height: 46px;
+    flex-direction: column;
+    justify-content: center;
+    color: #56CAB1;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: -70px 0 0 -70px;
+}
+.monkey p:nth-child(3) {
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -150px;
+}
+.monkey span{
+    content:"";
+    color: #23263C;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 7px;
+}
+.monkey-two{
+    width: 375px;
+    height: 507px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    position: absolute;
+    top: 70px;
+    right: 140px;
+
+}
+.monkey-two img{
+    margin: 0;
+}
+
+.monkey-two p:nth-child(2){
+    color: #56CAB1;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 12px 0 15px 29px;
+}
+.free{
+    display: flex;
+}
+.free p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.free span{
+    color: #23263C;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 7px;
+}
+.free button{
+    width: 147px;
+    height: 51px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    margin-left: 12px;
+    color: #52A7C6;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*-------------------------------------------------*/
+.test{
+    color: #5BD2BF;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 300px 0 5px 624px;
+}
+.client{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*--------------------section-two-------------------------------*/
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 146px;
+}
+.ali{
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+    text-align: center;
+
+}
+.ali-img img {
+    width: 156px;
+    height: 150px;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    border-radius: 50%;
+    top:-70px;
+    right: 90px;
+}
+
+.reyna{
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.reyna-img img{
+    width: 158px;
+    height: 150px;
+    background:  lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    border-radius: 50%;
+    top:-70px;
+    right: 90px;
+}
+.othman{
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.othman img{
+    width: 145px;
+    height: 150px;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    border-radius: 50%;
+    top:-70px;
+    right: 90px;
+}
+.people h2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 83px 0 27px 0;
+}
+.people p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 19px 75px 24px;
+}
+/*---------------------article--------------------------------*/
+article{
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    text-align: center;
+    margin: 208px 189px 100px 188px;
+    padding-top: 14px;
+}
+article h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    margin: 24px 375px 39px 376px;
+}
+article button{
+    width: 344px;
+    height: 85px;
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    border: none;
+}
+/*---------------------------footer----------------------------------*/
+footer{
+    height: 380px;
+    width: 1440px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 100px;
+
+}
+.footer{
+
+    height:100%;
+    display: flex;
+
+
+}
+.submit p{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+input[type="email"]{
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    border: none;
+}
+input[type="email"]::placeholder{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: 0.8;
+    padding: 17px 0 18px 12px;
+}
+form{
+    position: relative;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    border: none;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: absolute;
+    right: 0;
+    margin: 1px;
+}
+.footer p{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+.first{
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding-bottom: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
